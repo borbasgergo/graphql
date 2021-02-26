@@ -1,0 +1,28 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borbasgergo/graphql-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/borbasgergo/graphql-backend/issues"
+  },
+  "homepage": "https://github.com/borbasgergo/graphql-backend#readme"
+}
